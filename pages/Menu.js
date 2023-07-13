@@ -67,7 +67,6 @@ function Menu() {
   ];
 
 
-  
 
 
 
@@ -77,7 +76,7 @@ function Menu() {
     <div className="menu">
 
 <SimpleImageSlider
-            width={1900}
+            width={1990}
             height={800}
             images={sliderImages}
             showBullets={true}

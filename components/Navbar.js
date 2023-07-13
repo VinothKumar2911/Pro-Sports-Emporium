@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaSearch, FaShoppingBag } from "react-icons/fa";
-import Logo from "../assets/logo.jpg";
+import Logo from "../assets/logo.jpeg";
 import ReorderIcon from "@material-ui/icons/Reorder";
 import "../styles/Navbar.css";
 
@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
-      <Link to="/"> <img src={Logo} alt="Logo" /> </Link>
+      <Link to="/"> <img className="logo" src={Logo} alt="Logo" /> </Link>
 
         
         <div className="hiddenLinks">
